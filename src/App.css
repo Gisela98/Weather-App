@@ -1,0 +1,121 @@
+.App {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #ea4c89;
+
+}
+
+.container {
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #b08ebf;
+  width: min(800px, 95%);
+
+}
+
+.country {
+  background-color: transparent;
+  padding: 10px 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: #dbdbdb;
+  border-radius: 5px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+
+}
+
+.wheater {
+  height: 22vh;
+}
+
+.informacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 25px;
+  background-color: transparent;
+  color: white (170, 169, 169);
+  width: 95%;
+  border-radius: 5px;
+
+}
+
+.temperature {
+  font-size: 27px;
+  font-weight: 600;
+  color: rgba(255, 255, 255);
+}
+
+.title {
+  font-size: 21px;
+  color: rgba(255, 255, 255, 0.756);
+  font-style: italic;
+}
+
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 90%;
+  margin: 2px 0;
+}
+
+.button {
+  margin: 7px 0;
+  padding: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  color: #845EC2;
+
+}
+
+
+@media screen and (min-width: 500px) {
+  .container {
+    width: min(500px, 95%);
+  }
+
+  .card__weather-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card__secondary-section {
+    align-items: flex-start;
+  }
+
+}
